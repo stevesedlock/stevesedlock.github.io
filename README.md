@@ -121,135 +121,6 @@
 	
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
-	
-	
-	<style>
-
-:root {
-  --color-background: #ecebe9;
-  --color-default: #000;
-  --color-h1:red;
-}
-
-		
-		
-		html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
-body {
-	background-color: var(--color-background);
-    display: table-cell;
-   /* vertical-align: middle;*/
-}
-		
-		h1{
-			color:#ecebe9;
-		}
-		
-	@media only screen and (max-width: 600px) {
-  body {
- /*  vertical-align: top;
-	 padding-top: 30px;*/
-  }
-}	
-
-/* Toggle button */
-.btn {
-
-  padding: 5px 8px;
-  background-color: var(--color-background);
-  border: var(--color-default) solid 1px;
-  color: var(--color-default);
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-}
-
-
-/*dark-mode styles*/
-.dark-mode {
-  --color-background: #002d21;
-  --color-default: #ecebe9;
-  --color-accent-1: cyan;
-  --color-accent-2: magenta;
-	}
-		
-
-p{
-  color: var(--color-default);
-}
-		
-h1{
-  color: var(--color-default);
-}
-
-h2{
-  color: var(--color-default);
-}
-
-p.caption {
-  text-align: center;
-  font-size: 13px;
-  padding-bottom: 30px;
-}
-
-p.caption a {
-  color: var(--color-default);
-}
-		
-		a{
-		color:#ffffff;
-		}
-		
-		a:hover {
-  color: #ffffff;
-}
-		
-		
- a.nav-link {
-			 color:#ffffff;
-		 }
-		 
-		 
-h1 {
-  font-size: 16px !important;
-}
-@media screen and (min-width: 320px) {
-  h1 {
-    font-size: calc(30px + 6 * ((100vw - 320px) / 680)) !important;
-	  
-  }
-	
-	  h3 {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680)) !important;
-	
-  }
-}
-@media screen and (min-width: 900px) {
-  h1 {
-    font-size: 50px !important;
-  }
-}
-		 
-		 		
-		button.btn:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-		
-		
-	</style>
-	
-	 <script>
-    const colorScheme = localStorage.getItem("color-scheme") || "light-mode";
-  </script>
 	
 </head>
 
@@ -272,7 +143,7 @@ include( 'includes/2024/header.html' );
 
 </div>
 	    
-	 <!-- <button class='btn btn-sm'>Toggle light/dark mode</button>!-->
+
 	</div>
   <div class="row">
     <div class="col-md-8 offset-md-2" style="padding-left: 5%; padding-right: 5%; margin-top: 5%;">
@@ -283,11 +154,7 @@ I'm the architect, designer, planner and builder for various projects, ranging f
 		
 			<p style="line-height: 20px; font-family:'Roboto', sans-serif; font-weight: 500; font-size: 1.3em; text-align: center;" class="lead"><a class="btn btn-lg" style="color:white;" href="https://www.linkedin.com/in/stevesedlock/" style="color:#0090FF;">Details on LinkedIn <span class="material-icons" style="vertical-align: middle; color:#0090FF;">
 arrow_forward_ios
-</span></a></strong></p>
-		
-			<!--<p style="line-height: 20px; font-family:'Roboto', sans-serif; font-weight: 500; font-size: 1.3em; text-align: center;" class="lead"><a href="/portfolio" style="color:#0090FF;">Examples of my work<span class="material-icons" style="vertical-align: middle; color:#0090FF;">
-arrow_forward_ios
-</span></a></strong></p>!-->
+</span></a></p>
 		
 	
 	
