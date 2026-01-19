@@ -1,6 +1,3 @@
-
-
-
 <html lang="en" class="no-js" prefix="og: https://ogp.me/ns#">
 <head>
     <!-- Google tag (gtag.js) -->
